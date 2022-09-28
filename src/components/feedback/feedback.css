@@ -1,0 +1,37 @@
+.anchorFeedback {
+    width: 670px;
+    height: 730px;
+    background: #BBD6FF;
+    border-radius: 60px;
+    margin: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: grab;
+}
+
+.anchorFeedback:active {
+    cursor: grabbing;
+}
+
+.slider-single-content {
+    box-shadow: none !important;
+}
+
+.imgFeedback {
+    border-radius: 50%;
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.headFeedback {
+    display: flex;
+    align-items: center;
+}
+
+.textFeedback {
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+}

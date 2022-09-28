@@ -1,0 +1,19 @@
+.anchorFooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: 50px;
+    height: 180px;
+    background: #00095B;
+    margin-top: 20px;
+}
+
+.logoFooter {
+    width: 50px;
+    margin-inline: 20px;
+}
+.imgFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,49 @@
+.numHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 70px;
+    background: #7CA9FF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.difficultHome {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #110076;
+    width: 650px;
+    height: 200px;
+    display: flex;
+}
+
+
+.t2 {
+    margin-top: 40px;
+    transform: rotate(17.11deg);
+    margin-right: 40px;
+}
+
+.t3 {
+    margin-top: 80px;
+}
+
+.t4 {
+    margin-top: 105px;
+    transform: rotate(21.67deg);
+}
+
+.fontHome {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    color: #110076;
+    text-align: center;
+    margin-block: 40px;
+}
