@@ -1,0 +1,72 @@
+.signLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 45px;
+    background: #BBDAFF;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #110076;
+    margin-right: 20px;
+}
+
+.inputLogin {
+    height: 100px;
+    width: 580px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 30px;
+    margin-block: 20px;
+}
+
+.loginCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.anchorLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.switchLogin {
+    display: flex;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.switchLogin > div {
+    padding: 10px;
+}
+
+.checked {
+    border-bottom: 2px solid #ff0d0d;
+}
+
+.loginHeader {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.signParent {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,10 +1,10 @@
 import './home.css';
-import { Footer } from "../../components/footer";
+import { Feedback } from '../../components/feedback';
+import { Carousel } from '3d-react-carousal';
 import { Header } from "../../components/header";
 import zhanbo from '../../media/zhanbo.png';
 import phone from '../../media/phone.jpg';
-import { Feedback } from '../../components/feedback';
-import { Carousel } from '3d-react-carousal';
+import { Footer } from "../../components/footer";
 export const Home = () => {
     let slides = [<Feedback />,
     <Feedback />,
