@@ -1,0 +1,24 @@
+.sideMain {
+    width: 270px;
+    height: fit-content;
+}
+
+.videoMain {
+    padding: 20px;
+}
+
+.videoMain>iframe {
+    width: 600px;
+}
+
+.chapterMain {
+    height: 50px;
+    background-color: #C9EFFF;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.anchorMain {
+    display: flex;
+}

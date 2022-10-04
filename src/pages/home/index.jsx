@@ -1,14 +1,10 @@
 import './home.css';
 import { Feedback } from '../../components/feedback';
-import { Carousel } from '3d-react-carousal';
 import { Header } from "../../components/header";
 import zhanbo from '../../media/zhanbo.png';
 import phone from '../../media/phone.jpg';
 import { Footer } from "../../components/footer";
 export const Home = () => {
-    let slides = [<Feedback />,
-    <Feedback />,
-    <Feedback />,];
     return (
         <div>
             <Header size={30} />
@@ -32,7 +28,9 @@ export const Home = () => {
             <div style={{ height: '350px', backgroundColor: '#7CA9FF' }}></div>
             <div className='fontHome'>Пікрілер</div>
 
-            <Carousel slides={slides} arrows={false} />
+            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                <Feedback />
+            </div>
 
             <Footer />
         </div>
