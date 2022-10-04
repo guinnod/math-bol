@@ -1,0 +1,17 @@
+.anchorChapter {
+    height: 80px;
+    background-color: #C9EFFF;
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+.triangleChapter {
+    border: 1px solid black;
+    background-color: white;
+	clip-path: polygon(0 0, 50% 50%, 0 100%);
+	width: 15px;
+	height: 15px;
+    margin: 5px;
+}
