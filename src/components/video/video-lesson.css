@@ -1,0 +1,7 @@
+.videoMain {
+    padding: 20px;
+}
+
+.videoMain>iframe {
+    width: 600px;
+}
