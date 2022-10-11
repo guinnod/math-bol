@@ -1,0 +1,46 @@
+.profile-anchor {
+    padding-top: 45px;
+    padding-left: 45px;
+}
+.anchorProfile {
+    display: flex;
+}
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.camera-image {
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+}
+
+.camera-image>img {
+    width: 25px;
+    height: 25px;
+}
+
+.profile-ava {}
+
+.circular {
+    width: 200px;
+}
+
+.anchor-content {
+    display: flex;
+}
+
+.anchor-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

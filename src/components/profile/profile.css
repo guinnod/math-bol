@@ -1,10 +1,14 @@
 .profile-anchor {
     padding-top: 45px;
     padding-left: 45px;
+    display: flex;
+    height: 640px;
 }
+
 .anchorProfile {
     display: flex;
 }
+
 .avatar {
     border-radius: 50%;
     width: 200px;
@@ -32,4 +36,28 @@
 
 .circular {
     width: 200px;
+}
+
+.card-profile {
+    display: flex;
+}
+
+.card-profile-name>div:first-child {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.card-profile-name>div {
+margin: 20px;
+margin-left: 50px;
+}
+
+.card-profile-name>div:nth-child(2) {
+    font-weight: 10;
+    font-size: 24px;
+}
+
+.lessons-profile {
+    overflow: scroll;
+    height: 400px
 }

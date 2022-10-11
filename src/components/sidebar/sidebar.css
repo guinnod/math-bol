@@ -1,0 +1,8 @@
+.anchor-sidebar {
+    z-index: -1;
+    background-color: #C9EFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 680px;
+}

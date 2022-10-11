@@ -1,9 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import { LoadTask } from './components/load-task';
+import { Profile } from './components/profile';
 import { Home } from './pages/home';
 import { Login } from './pages/login';
 import { Main } from './pages/main';
-import { Profile } from './pages/profile';
+import { Page } from './pages/page';
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/login' element={<Login/>}></Route>
-        <Route path='/home' element={<Main/>}></Route>
-        <Route path='/profile' element={<Profile/>}></Route>
+        <Route path='/home' element={<Page content={<Main/>}/>}></Route>
+        <Route path='/profile' element={<Page content={<Profile />}/>}></Route>
+        <Route path='/*' element={<LoadTask />}></Route>
       </Routes>
     </div>
   );

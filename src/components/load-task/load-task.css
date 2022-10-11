@@ -1,0 +1,29 @@
+.anchor-load {
+    width: 360px;
+    height: 400px;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.load-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    background: #D9D9D9;
+    padding: 10px;
+}
+
+.red-load {
+    background: #FF8E8E;
+}
+
+.load-submit {
+    display: flex;
+}
+
+.load-up {
+    display: flex;
+}
