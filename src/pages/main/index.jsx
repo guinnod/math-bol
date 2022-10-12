@@ -1,13 +1,15 @@
 import './main.css';
 import { Task } from '../../components/task';
 import { VideoLesson } from '../../components/video';
-export const Main = ({ isTask }) => {
-isTask = false;
+import { useContext } from 'react';
+import { DefaultContext } from '../../Context';
+export const Main = () => {
+    const { isTask } = useContext(DefaultContext);
     return (
-            <div className='anchorMain'>
-                {isTask ?
-                    <VideoLesson /> :
-                    <Task />}
-            </div>
+        <div className='anchorMain'>
+            {isTask ?
+                <Task /> :
+                <VideoLesson />}
+        </div>
     );
 };

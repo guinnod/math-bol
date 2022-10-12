@@ -10,8 +10,42 @@
 .triangleChapter {
     border: 1px solid black;
     background-color: white;
-	clip-path: polygon(0 0, 50% 50%, 0 100%);
-	width: 15px;
-	height: 15px;
+    clip-path: polygon(0 0, 50% 50%, 0 100%);
+    width: 15px;
+    height: 15px;
     margin: 5px;
+    cursor: pointer;
+}
+
+.anchor-choice {
+    width: 100%;
+    height: 125px;
+    background: #A8E3FC;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.anchor-choice>div:first-child {
+    border-bottom: 2px solid white;
+}
+
+.choice-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+}
+
+.anchor-choice.hide-choice {
+    display: none;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
