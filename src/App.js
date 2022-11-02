@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import { LoadTask } from './components/load-task';
+
 import { Profile } from './components/profile';
+import { ProfileDrop } from './components/profile-drop';
+import { StudentsList } from './components/students-list';
 import { DefaultContext } from './Context';
 import { Home } from './pages/home';
 import { Login } from './pages/login';
@@ -19,7 +21,7 @@ function App() {
           <Route path='/login' element={<Login />}></Route>
           <Route path='/home' element={<Page content={<Main />} />}></Route>
           <Route path='/profile' element={<Page content={<Profile />} />}></Route>
-          <Route path='/*' element={<LoadTask />}></Route>
+          <Route path='/*' element={<Page content={<ProfileDrop />}/>}></Route>
         </Routes>
       </div>
     </DefaultContext.Provider>

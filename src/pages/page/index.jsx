@@ -9,7 +9,9 @@ export const Page = ({ content }) => {
             <Header />
             <div className='anchor-content'>
                 <Sidebar />
+                <div className='content'>
                 {content}
+                </div>
             </div>
             <Footer />
         </div>
