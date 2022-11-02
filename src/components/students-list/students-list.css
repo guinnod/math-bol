@@ -1,0 +1,36 @@
+students-list-anchor {}
+
+.rows {
+    width:max-content;
+}
+.list-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+
+.list-row div {
+    display: inherit;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.list-row div * {
+    margin: 0 20px;
+}
+
+.list-row div div {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rows .list-row:last-child {
+    border-bottom: 2px solid black;
+}
+
+.nums {
+    min-width: 50px;
+}
