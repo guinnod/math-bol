@@ -2,6 +2,7 @@ import './footer.css';
 import whatsapp from '../../media/whatsapp.png';
 import instagram from '../../media/instagram.png';
 import telegram from '../../media/telegram.png';
+
 export const Footer = () => {
     return (
         <div className='anchorFooter'>

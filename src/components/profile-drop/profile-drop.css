@@ -1,7 +1,15 @@
-profile-drop-anchor {}
+.profile-drop-anchor {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
 .ava-drop {
     display: flex;
     align-items: center;
+}
+
+.username * {
+    margin-block: 10px;
 }
 .ava-drop img {
     border-radius: 50%;

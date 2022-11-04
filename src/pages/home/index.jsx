@@ -5,6 +5,7 @@ import zhanbo from '../../media/zhanbo.png';
 import phone from '../../media/phone.jpg';
 import { Footer } from "../../components/footer";
 export const Home = () => {
+    
     return (
         <div>
             <Header size={30} />
@@ -28,7 +29,7 @@ export const Home = () => {
             <div style={{ height: '350px', backgroundColor: '#7CA9FF' }}></div>
             <div className='fontHome'>Пікрілер</div>
 
-            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Feedback />
             </div>
 

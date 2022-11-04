@@ -1,16 +1,13 @@
-.anchorLogo {
+.logo__anchor {
     display: flex;
     cursor: pointer;
 }
 
-.textLogo {
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.logo__text {
     color: #110076;
 }
 
-.rotateLogo {
+.logo__text--rotated {
+    margin: 0.25em 0 0 0.1em;
     transform: rotate(20.0deg);
 }

@@ -1,3 +1,7 @@
+.root-anchor {
+    position: relative;
+}
+
 .anchorHeader {
     display: flex;
     justify-content: space-between;
@@ -24,4 +28,24 @@
     padding-inline: 10px;
     margin-top: 8px;
     cursor: pointer;
+}
+
+.drop {
+    width: 250px;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 10px;
+    animation: todrop 1s;
+    z-index: 10;
+}
+
+@keyframes todrop {
+    from {
+        margin-top: -80%;
+    }
+
+    to {
+        margin-top: 10px;
+    }
 }

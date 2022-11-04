@@ -1,9 +1,9 @@
-import './logo.css';
+import "./logo.css";
 export const Logo = ({ size }) => {
     return (
-        <div className="anchorLogo" style={{ height: `${size}px` }}>
-            <div className='textLogo' style={{ fontSize: `${size}px` }}>Math</div>
-            <div className='textLogo rotateLogo' style={{ fontSize: `${size}px`, marginTop: `${size / 2}px`, marginLeft: `${size / 8}px` }}>Bol</div>
+        <div className="logo__anchor" style={{ fontSize: `${size}px` }}>
+            <div className="logo__text">Math</div>
+            <div className="logo__text logo__text--rotated">Bol</div>
         </div>
     );
 };

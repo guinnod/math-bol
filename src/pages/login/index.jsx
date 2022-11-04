@@ -2,17 +2,18 @@ import './login.css';
 import { Logo } from '../../components/logo';
 import { Footer } from "../../components/footer";
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 export const Login = () => {
     const [isSign, setIsSign] = useState(true);
-
+    const navigate = useNavigate();
     return (
         <div className='loginAnchor'>
             <div className='loginHeader'>
                 <Logo size={40} />
             </div>
             <div className='anchorLogin'>
-                <div style={{marginBottom: '30px'}}><Logo size={160} /></div>
-                
+                <div style={{ marginBottom: '30px' }}><Logo size={160} /></div>
+
                 <div className='loginCenter'>
                     <div className='switchLogin'>
                         <div className={isSign ? 'checked' : ''} onClick={() => { setIsSign(!isSign) }}>Кіру</div>
@@ -24,7 +25,7 @@ export const Login = () => {
                         {!isSign ? <input type="password" className='inputLogin' placeholder='Құпия сөзді қайталаңыз' /> : <></>}
                     </div>
                     <div className='signParent'>
-                        <div className='signLogin'>Кіру</div>
+                        <div className='signLogin' onClick={()=>{navigate('../home')}}>{isSign ? 'Кіру' : 'Тіркелу'}</div>
                     </div>
 
                 </div>
