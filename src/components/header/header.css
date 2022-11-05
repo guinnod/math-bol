@@ -1,36 +1,30 @@
-.root-anchor {
+.header__root {
     position: relative;
 }
 
-.anchorHeader {
+.header__anchor {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 50px;
+    padding: 20px 50px;
     background: #7CA9FF;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
-    height: 65px;
-    padding-bottom: 8px;
 }
 
-.signInHeader {
+.header__signin {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 40px;
     background: #BBDAFF;
     border-radius: 10px;
     font-weight: 800;
     font-size: 20px;
-    text-align: center;
+    padding: 10px 20px;
     color: #00046A;
-    padding-inline: 10px;
-    margin-top: 8px;
     cursor: pointer;
 }
 
-.drop {
+.header__drop {
     width: 250px;
     position: absolute;
     right: 0;

@@ -6,7 +6,7 @@ import { Sidebar } from '../../components/sidebar';
 export const Page = ({ content }) => {
     return (
         <div className='anchor-page'>
-            <Header />
+            <Header size={30}/>
             <div className='anchor-content'>
                 <Sidebar />
                 <div className='content'>

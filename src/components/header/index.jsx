@@ -10,12 +10,13 @@ export const Header = ({ size }) => {
     const { isAuth, setIsAuth } = useContext(DefaultContext);
     let navigate = useNavigate();
     return (
-        <div className='root-anchor'>
-            <div className='anchorHeader'>
+        <div className='header__root'>
+            <div className='header__anchor'>
                 <Logo size={size} />
-                <div onClick={() => { if (isAuth) { setShowDrop(!showDrop) } else { setIsAuth(true); navigate("login") } }} className='signInHeader'>{isAuth ? 'Username' : 'Кіру/Тіркелу'}</div>
+                <div onClick={() => { if (isAuth) { setShowDrop(!showDrop) } else { setIsAuth(true); navigate("login") } }} 
+                className='header__signin'>{isAuth ? 'Username' : 'Кіру/Тіркелу'}</div>
             </div>
-            {showDrop ? <div className='drop'>
+            {showDrop ? <div className='header__drop'>
                 <ProfileDrop />
             </div> : <></>}
         </div>
