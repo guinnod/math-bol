@@ -1,28 +1,31 @@
-.profile-drop-anchor {
+.drop__anchor {
     border-radius: 10px;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
 }
-.ava-drop {
+
+.drop__ava {
     display: flex;
     align-items: center;
 }
 
-.username * {
-    margin-block: 10px;
+.drop__username * {
+    margin: 10px;
 }
-.ava-drop img {
+
+.drop__ava img {
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    margin: 10px;
-}
-.drops h3 {
-border-top: 2px solid black;
-padding-block: 20px;
-margin: 0;
+    margin: 10px 10px 10px 0px;
 }
 
-.drops h3:last-child {
+.drop__list h3 {
+    border-top: 2px solid black;
+    padding: 20px 0px;
+    margin: 0;
+}
+
+.drop__list h3:last-child {
     border-bottom: 2px solid black;
 }
