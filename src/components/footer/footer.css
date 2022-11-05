@@ -1,18 +1,24 @@
-.anchorFooter {
+.footer__anchor {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-inline: 50px;
-    height: 180px;
     background: #00095B;
+    padding: 35px 10%;
 }
 
-.logoFooter {
-    width: 50px;
-    margin-inline: 20px;
+.footer__content h2 {
+    color: white;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
 }
-.imgFooter{
+
+.footer__images {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.footer__images img {
+    width: 50px;
+    margin: 0px 15px;
 }

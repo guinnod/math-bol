@@ -5,13 +5,13 @@ import telegram from '../../media/telegram.png';
 
 export const Footer = () => {
     return (
-        <div className='anchorFooter'>
-            <div style={{marginRight: '280px', paddingBottom: '30px'}}>
-                <h2 style={{color: 'white', textAlign: 'center'}}>Бізбен байланыс:</h2>
-                <div className='imgFooter'>
-                    <img src={instagram} alt="instagram" className='logoFooter' />
-                    <img src={whatsapp} alt="whatsapp" className='logoFooter' />
-                    <img src={telegram} alt="telegram" className='logoFooter' />
+        <div className='footer__anchor'>
+            <div className='footer__content'>
+                <h2>Бізбен байланыс:</h2>
+                <div className='footer__images'>
+                    <img src={instagram} alt="instagram" />
+                    <img src={whatsapp} alt="whatsapp" />
+                    <img src={telegram} alt="telegram" />
                 </div>
             </div>
         </div>
