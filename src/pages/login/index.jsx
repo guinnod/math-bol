@@ -7,31 +7,30 @@ export const Login = () => {
     const [isSign, setIsSign] = useState(true);
     const navigate = useNavigate();
     return (
-        <div className='loginAnchor'>
-            <div className='loginHeader'>
+        <div className='login__anchor'>
+            <div className='login__header'>
                 <Logo size={40} />
             </div>
-            <div className='anchorLogin'>
-                <div style={{ marginBottom: '30px' }}><Logo size={160} /></div>
-
-                <div className='loginCenter'>
-                    <div className='switchLogin'>
-                        <div className={isSign ? 'checked' : ''} onClick={() => { setIsSign(!isSign) }}>Кіру</div>
-                        <div className={!isSign ? 'checked' : ''} onClick={() => { setIsSign(!isSign) }}>Тіркелу</div>
+            <div>
+                <div className='login__center'>
+                    <div><Logo size={150} /></div>
+                    <div className='login__content'>
+                        <div>
+                            <div className={isSign ? 'login__switch --checked' : 'login__switch'} onClick={() => { setIsSign(!isSign) }}>Кіру</div>
+                            <div className={!isSign ? 'login__switch --checked' : 'login__switch'} onClick={() => { setIsSign(!isSign) }}>Тіркелу</div>
+                        </div>
+                        <div>
+                            <input type="email" className='login__input' placeholder='Электронды почта' />
+                            <input type="password" className='login__input' placeholder='Құпия сөз' />
+                            <input type="password" className={!isSign ? 'login__input' : 'login__input --hidden'} placeholder='Құпия сөзді қайталаңыз' />
+                        </div>
                     </div>
                     <div>
-                        <input type="email" className='inputLogin' placeholder='Электронды почта' />
-                        <input type="password" className='inputLogin' placeholder='Құпия сөз' />
-                        {!isSign ? <input type="password" className='inputLogin' placeholder='Құпия сөзді қайталаңыз' /> : <></>}
+                        <div className='login__button' onClick={() => { navigate('../home') }}>{isSign ? 'Кіру' : 'Тіркелу'}</div>
                     </div>
-                    <div className='signParent'>
-                        <div className='signLogin' onClick={()=>{navigate('../home')}}>{isSign ? 'Кіру' : 'Тіркелу'}</div>
-                    </div>
-
                 </div>
             </div>
             <Footer />
         </div>
-
     );
 };
