@@ -30,11 +30,19 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='home__line'></div>
+            <div className='home__line'>
+                <div>
+                    Math болуға дайынмын!
+                </div>
+                <div>
+                    Иә!
+                </div>
+            </div>
             <div className='home__feedback'>
                 <div>Пікрілер</div>
                 <div className='home__feedback__carousel'>
                     <Feedback />
+                    
                 </div>
             </div>
             <Footer />

@@ -77,10 +77,24 @@
 
 .home__line {
     background-color: #7CA9FF;
-    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0px;
 }
 
-.home__feedback > div:first-child {
+.home__line>div {
+    align-items: center;
+    justify-content: center;
+    color: #A7A7A7;
+    font-weight: 700;
+    font-size: 48px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 25px 60px;
+}
+
+.home__feedback>div:first-child {
     font-size: 90px;
     color: #110076;
     text-align: center;
@@ -91,4 +105,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
