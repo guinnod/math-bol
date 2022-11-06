@@ -7,8 +7,8 @@ export const Feedback = () => {
             <div className='feedback__head'>
                 <img src={shapo} alt="" />
                 <div>
-                    <h2 style={{ fontSize: '24px' }}>Shapagat Aisagali</h2>
-                    <p style={{ fontSize: '20px' }}>Назарбаев университетінің ректоры</p>
+                    <h2 style={{ fontSize: '1em' }}>Shapagat Aisagali</h2>
+                    <p style={{ fontSize: '0.85em' }}>Назарбаев университетінің ректоры</p>
                 </div>
             </div>
             <p style={{ userSelect: 'none' }}>

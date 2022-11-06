@@ -102,8 +102,9 @@
 }
 
 .home__feedback__carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 50px;
+}
+
+.home__feedback__carousel * {
+    box-shadow: none !important;
 }

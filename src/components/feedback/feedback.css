@@ -1,12 +1,13 @@
 .feedback__anchor {
     background: #BBD6FF;
-    border-radius: 60px;
-    margin: 10px;
-    padding: 40px;
+    border-radius: 2.6em;
+    margin: 0.4em;
+    padding: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: grab;
+    font-size: 24px;
 }
 
 .feedback__head {
@@ -16,11 +17,12 @@
 
 .feedback__head>img {
     border-radius: 50%;
-    margin: 20px 40px 20px 20px;
+    margin: 0.8em 1.6em 0.8em 0.8em;
+    width: 5em;
 }
 
 .feedback__anchor>p {
-    width: 500px;
-    font-size: 30px;
+    width: 16.5em;
+    font-size: 1.25em;
     text-align: center;
 }

@@ -3,7 +3,12 @@ import { Feedback } from '../../components/feedback';
 import { Header } from "../../components/header";
 import zhanbo from '../../media/zhanbo.png';
 import { Footer } from "../../components/footer";
+import { Carousel } from '3d-react-carousal';
+import LazyLoad from 'react-lazy-load';
+
+
 export const Home = () => {
+    var ss = [<Feedback />, <Feedback />, <Feedback />];
     return (
         <div>
             <div className="home__header">
@@ -41,8 +46,9 @@ export const Home = () => {
             <div className='home__feedback'>
                 <div>Пікрілер</div>
                 <div className='home__feedback__carousel'>
-                    <Feedback />
-                    
+                    <LazyLoad height={800}>
+                        <Carousel slides={ss} arrows={false} />
+                    </LazyLoad>
                 </div>
             </div>
             <Footer />
