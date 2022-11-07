@@ -1,63 +1,71 @@
-.profile-anchor {
-    padding-top: 45px;
-    padding-left: 45px;
+.profile__anchor {
+    font-size: 20px;
     display: flex;
-    height: 640px;
+    height: 32em;
+    width: 60em;
+    justify-content: space-between;
 }
 
-.anchorProfile {
+.card__profile {
     display: flex;
 }
 
-.avatar {
+.profile__avatar {
     border-radius: 50%;
-    width: 200px;
+    width: 10em;
 }
 
 .camera-image {
-    width: 50px;
-    height: 50px;
+    width: 2.5em;
+    height: 2.5em;
     background: #D9D9D9;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 130px;
-    bottom: 50px;
+    left: 6.5em;
+    bottom: 2.5em;
 }
 
 .camera-image>img {
-    width: 25px;
-    height: 25px;
+    width: 1.25em;
+    height: 1.25em;
 }
 
-.profile-ava {}
-
-.circular {
-    width: 200px;
-}
-
-.card-profile {
-    display: flex;
-}
-
-.card-profile-name>div:first-child {
+.card__profile__name>div:first-child {
     font-weight: 500;
     font-size: 36px;
 }
 
-.card-profile-name>div {
-margin: 20px;
-margin-left: 50px;
+.card__profile__name>div {
+    margin: 20px;
+    margin-left: 50px;
 }
 
-.card-profile-name>div:nth-child(2) {
+.card__profile__name>div:nth-child(2) {
     font-weight: 10;
     font-size: 24px;
 }
 
-.lessons-profile {
+.profile__lessons {
     overflow: scroll;
-    height: 400px
+    /* height: 20em; */
+    font-size: 15px;
+    width: max-content;
+}
+
+.lesson__percent {
+    margin: 0 0 0 3em;
+}
+
+.profile__circular {
+    display: flex;
+    justify-content: center;
+    width: 30em;
+}
+
+.profile__circular>svg {
+    width: 60%;
+    height: 60%;
 }

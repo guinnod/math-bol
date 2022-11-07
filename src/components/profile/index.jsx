@@ -8,38 +8,33 @@ export const Profile = () => {
     const percents = [98, 76, 0, 8, 63];
 
     return (
-        <div className='profile-anchor'>
+        <div className='profile__anchor'>
             <div>
-                <div className='card-profile'>
-
-                    <div className='profile-ava'>
-                        <img src={shapo} alt="shapo" className='avatar' />
-                        <div className='camera-image'><img src={camera} alt="shapo" /></div>
+                <div className='card__profile'>
+                    <div>
+                        <img src={shapo} alt="shapo" className='profile__avatar' />
+                        <div className='camera-image'><img src={camera} alt="camera" /></div>
                     </div>
-                    <div className='card-profile-name'>
+                    <div className='card__profile__name'>
                         <div>Username</div>
                         <div>status</div>
                     </div>
-
                 </div>
-                <div className='lessons-profile'>
+                <div className='profile__lessons'>
                     {percents.map((e) => {
-                        return (<div style={{ width: '200px' }} key={e}>
-                            <div style={{ width: '200px', display: 'flex', justifyContent: 'space-between' }}>
-                                <h2>{`Lesson #${percents.indexOf(e) + 1}`}</h2>
-                                <h2>{`${e}%`}</h2>
-                            </div>
-                            <hr />
-                        </div>);
+                        return (
+                            <div key={e}>
+                                <div>
+                                    <h2>{`Lesson #${percents.indexOf(e) + 1}`}<span className='lesson__percent'>{`${e}%`}</span></h2>
+                                </div>
+                                <hr />
+                            </div>);
                     })}
                 </div>
             </div>
-
-            <div className='circular'>
+            <div className='profile__circular'>
                 <CircularProgressbar value={0} text={`${0}%`} />
             </div>
-
-
         </div>
 
     );
