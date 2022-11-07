@@ -1,7 +1,9 @@
-.anchor-sidebar {
+.sidebar__anchor {
     background-color: #C9EFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 680px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.sidebar__anchor>p {
+    text-align: center;
 }

@@ -3,7 +3,10 @@
     align-items: center;
     justify-content: flex-end;
     background: #00095B;
-    padding: 35px 10%;
+}
+
+.footer__content {
+    margin: 35px 10%;
 }
 
 .footer__content h2 {

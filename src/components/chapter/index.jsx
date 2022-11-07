@@ -7,15 +7,15 @@ export const Chapter = ({ chapterName }) => {
     const { setIsTask } = useContext(DefaultContext);
     return (
         <>
-            <div className='anchorChapter'>
-                <div className='triangleChapter' onClick={() => { setShowChoice(!showChoice) }}></div>
+            <div className='chapter__anchor'>
+                <div className='chapter__triangle' onClick={() => { setShowChoice(!showChoice) }}></div>
                 <p>{chapterName}</p>
             </div>
-            <div className={showChoice ? 'anchor-choice' : 'anchor-choice hide-choice'}>
-                <div className='choice-text' onClick={() => { setIsTask(false)}}>
+            <div className={showChoice ? 'chapter__choice' : 'chapter__choice choice--hide'}>
+                <div className='chapter__text' onClick={() => { setIsTask(false) }}>
                     Бейнесабақ
                 </div>
-                <div className='choice-text' onClick={() => { setIsTask(true)}}>
+                <div className='chapter__text' onClick={() => { setIsTask(true) }}>
                     Тапсырма
                 </div>
             </div>

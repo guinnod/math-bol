@@ -4,7 +4,6 @@ export const VideoLesson = () => {
         <div className='videoMain'>
             <p>Lesson#1, Не үшін математиканы жек көресің?</p>
             <div id="player"></div>
-
         </div>
     );
 };

@@ -6,10 +6,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
     background: #7CA9FF;
+    height: 100%;
 }
-
+.header__anchor>div {
+    margin: 20px 50px;
+}
 .header__signin {
     display: flex;
     justify-content: center;
