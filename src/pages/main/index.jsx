@@ -8,10 +8,9 @@ export const Main = () => {
     const { isTask, setIsAuth } = useContext(DefaultContext);
     useEffect(() => {
         setIsAuth(true);
-        console.log('true');
     }, [setIsAuth]);
     return (
-        <div className='anchorMain'>
+        <div className='main__anchor'>
             {isTask ?
                 <Task /> :
                 <VideoLesson />}

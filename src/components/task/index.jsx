@@ -1,39 +1,23 @@
 import './task.css';
 export const Task = () => {
     return (
-        <div className='anchorTask'>
+        <div className='task__anchor'>
             <div>
                 <p>Lesson#1, Task</p>
                 <div>
-                    jdsbs;a ;sdzbl.d e;isfjsn dsz.ulghd v;udhbljvd
-                    fbv;lizhdsnv dv
-                    sdvvi;szlbv v
-                    dv;zsdbv;jlcv'oisr v
-                    vvrbsz;jdvdsj <var>s
-                        zov;zsdlv's;dv'zxjv'sdzphhv
-
-                        zsdfv;ljzsd'vizsdv
-                        zsdvzsdv
-                    </var>4
-                    dipvs'izd'vnvds
-                    v4zfvnz'sdvvizsdvnz <var>zsdvivnzs'vn
-                        zsd4z
-
-                    </var>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio itaque alias harum nemo, eveniet quae libero quam ipsam numquam necessitatibus! Ipsum, pariatur laudantium animi doloribus non excepturi dolorem officia incidunt!
                 </div>
             </div>
-
-            <div className='anchorUpload'>
-                <div id='inputTask'>
+            <div className='task__upload'>
+                <div id='task__input'>
                     <div style={{ position: 'absolute', marginLeft: '20px' }}>Енгізу...</div>
 
-                    <input type="file" id='inputFile' />
+                    <input type="file" id='input__file' />
                 </div>
 
                 <div style={{ display: 'flex' }}>
-
-                    <div className='btn blue'>Жою</div>
-                    <div className='btn red'>Жүктеу</div>
+                    <div className='task__button --blue'>Жою</div>
+                    <div className='task__button --red'>Жүктеу</div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,30 @@
-#inputTask {
-    width: 276px;
-    height: 79px;
+.task__anchor {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.task__anchor>div:first-child {
+    width: 25em;
+}
+
+
+.task__upload {
+    width: 15em;
+    height: 8em;
+    background: #F2F2F2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3em;
+}
+
+#task__input {
+    width: 11em;
+    height: 3em;
     background: #ECE9E9;
     border: 1px dashed #000000;
     border-radius: 5px;
@@ -11,41 +35,29 @@
     align-items: center;
 }
 
-#inputFile {
+#input__file {
     width: 100%;
     height: 100%;
     opacity: 0;
 }
 
-.btn {
+.task__button {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    font-weight: 500;
-    font-size: 20px;
-    width: 112px;
-    height: 36px;
-    margin-inline: 10px;
+    font-weight: 900;
+    width: 5.2em;
+    height: 1.7em;
+    margin-inline: 0.5em;
 }
 
-.red {
+.task__button.--red {
     background-color: #FF8E8E;
     color: #E71D1D;
 }
 
-.blue {
+.task__button.--blue {
     background: #7CA9FF;
     color: #3A4DB1;
-}
-
-.anchorUpload {
-    width: 304px;
-    height: 163px;
-    background: #F2F2F2;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
 }

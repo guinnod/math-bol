@@ -1,7 +1,6 @@
-.videoMain {
-    padding: 20px;
+.video__anchor {
 }
 
-.videoMain>iframe {
+iframe {
     width: 600px;
 }
