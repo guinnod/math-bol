@@ -12,8 +12,19 @@ import { Page } from './pages/page';
 function App() {
   const [isTask, setIsTask] = useState(false);
   const [isAuth, setIsAuth] = useState(false);
+  const [isTeacher, setIsTeacher] = useState(true);
+  const [isAlert, setIsAlert] = useState(false);
+  const [isAlertList, setIsAlertList] = useState(false);
+  const [showDrop, setShowDrop] = useState(false);
   return (
-    <DefaultContext.Provider value={{ isTask, setIsTask, isAuth, setIsAuth }}>
+    <DefaultContext.Provider value={{
+      isTask, setIsTask,
+      isAuth, setIsAuth,
+      isTeacher, setIsTeacher,
+      isAlert, setIsAlert,
+      isAlertList, setIsAlertList,
+      showDrop, setShowDrop
+    }}>
       <div className="App">
         <Routes>
           <Route path='/' element={<Home />}></Route>

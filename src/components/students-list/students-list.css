@@ -1,4 +1,6 @@
-students-list-anchor {}
+.students-list-anchor {
+    background-color: white;
+}
 
 .rows {
     width:max-content;

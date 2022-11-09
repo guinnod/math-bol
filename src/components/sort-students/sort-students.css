@@ -1,0 +1,47 @@
+.sort-students__anchor {
+    font-size: 20px;
+    width: 25em;
+    height: 30em;
+    background: white;
+    padding: 2em;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+}
+
+.row__first {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 18em;
+    margin-bottom: 1em;
+}
+
+#email-sort {
+    background: #D9D9D9;
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    padding: 0.8em;
+    width: 13em;
+}
+
+.list__row {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid black;
+    justify-content: space-evenly;
+}
+
+.list__row:last-child {
+    border-bottom: 2px solid black;
+}
+
+.list__row>h4 {
+    margin: 0;
+}

@@ -4,6 +4,12 @@
     overflow-y: scroll;
 }
 
-.sidebar__anchor>p {
+.sidebar__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sidebar__anchor>div>p {
     text-align: center;
 }
